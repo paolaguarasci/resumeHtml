@@ -22,7 +22,8 @@ $(window)
     let normalOrder = [el0, el1, el2, el3, el4, el5, el6, el7];
     let mobileOrder = [el0, el4, el1, el5, el2, el6, el3, el7];
 
-    if ($(window).width() < 768) { // 768px is md brackpoints on bootstrap 5
+    if ($(window).width() < 768) {
+      // 768px is md brackpoints on bootstrap 5
       $('.removevh').removeClass('vh-100');
       $('.removew75').removeClass('w-75');
       littleTable.empty();
@@ -40,6 +41,16 @@ $(document).ready(() => {
   $('.progress-bar').each(function () {
     $(this).addClass(`progress-bar-${$(this).data('percent')}`);
   });
+
+  $('.card')
+    .mouseenter(function () {
+      $(this).find('.card-img-overlay').removeClass('display-none');
+      $(this).find('.card-img-overlay').addClass('display-block');
+    })
+    .mouseleave(function () {
+      $(this).find('.card-img-overlay').removeClass('display-block');
+      $(this).find('.card-img-overlay').addClass('display-none');
+    });
 });
 
 $(document).on('scroll', function () {
