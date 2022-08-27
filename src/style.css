@@ -1,27 +1,80 @@
-.progress-bar-25 {
-  width: 25%;
-  animation: progressBar25 3s ease-in-out;
+.progress-bar-10 {
+  width: 10%;
+  animation: progressBar10 2s ease-in-out;
 }
+.progress-bar-20 {
+  width: 20%;
+  animation: progressBar20 2s ease-in-out;
+}
+.progress-bar-30 {
+  width: 30%;
+  animation: progressBar30 2s ease-in-out;
+}
+
+.progress-bar-40 {
+  width: 40%;
+  animation: progressBar40 2s ease-in-out;
+}
+
 .progress-bar-50 {
   width: 50%;
-  animation: progressBar50 3s ease-in-out;
+  animation: progressBar50 2s ease-in-out;
 }
-.progress-bar-75 {
-  width: 75%;
-  animation: progressBar75 3s ease-in-out;
+.progress-bar-60 {
+  width: 60%;
+  animation: progressBar60 2s ease-in-out;
+}
+.progress-bar-70 {
+  width: 70%;
+  animation: progressBar70 2s ease-in-out;
 }
 
+.progress-bar-80 {
+  width: 80%;
+  animation: progressBar80 2s ease-in-out;
+}
+.progress-bar-90 {
+  width: 90%;
+  animation: progressBar90 2s ease-in-out;
+}
 .progress-bar-100 {
   width: 100%;
-  animation: progressBar100 3s ease-in-out;
+  animation: progressBar100 2s ease-in-out;
 }
 
-@keyframes progressBar25 {
+@keyframes progressBar10 {
   0% {
     width: 0;
   }
   100% {
-    width: 25%;
+    width: 10%;
+  }
+}
+
+@keyframes progressBar20 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+@keyframes progressBar30 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes progressBar40 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
   }
 }
 
@@ -34,12 +87,38 @@
   }
 }
 
-@keyframes progressBar75 {
+@keyframes progressBar60 {
   0% {
     width: 0;
   }
   100% {
-    width: 75%;
+    width: 60%;
+  }
+}
+
+@keyframes progressBar70 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes progressBar80 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes progressBar90 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
   }
 }
 
@@ -51,3 +130,4 @@
     width: 100%;
   }
 }
+
