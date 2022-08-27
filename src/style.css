@@ -1,7 +1,53 @@
-.red {
-  background-color: red;
+.progress-bar-25 {
+  width: 25%;
+  animation: progressBar25 3s ease-in-out;
+}
+.progress-bar-50 {
+  width: 50%;
+  animation: progressBar50 3s ease-in-out;
+}
+.progress-bar-75 {
+  width: 75%;
+  animation: progressBar75 3s ease-in-out;
 }
 
-.green {
-  background-color: green;
+.progress-bar-100 {
+  width: 100%;
+  animation: progressBar100 3s ease-in-out;
+}
+
+@keyframes progressBar25 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 25%;
+  }
+}
+
+@keyframes progressBar50 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes progressBar75 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes progressBar100 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
