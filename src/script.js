@@ -36,3 +36,26 @@ $(window)
     }
   })
   .resize();
+
+$(document).ready(() => {
+  $('.progress-bar').each(function () {
+    let percent = $(this).data('percent');
+    $(this).addClass(`progress-bar-${percent}`);
+    console.log('percent', percent);
+  });
+});
+
+$(document).on('scroll', function () {
+  let scrollOffset = $(document).scrollTop();
+  let containerOffset = $('#section3').offset().top - window.innerHeight;
+
+  if (scrollOffset > containerOffset) {
+    $('.progress-bar').each(function () {
+      let percent = $(this).data('percent');
+      $(this).addClass(`progress-bar-${percent}-animate`);
+      console.log('percent', percent);
+    });
+
+    $(document).off('scroll');
+  }
+});
