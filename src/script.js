@@ -5,4 +5,12 @@ $(window).resize(function() {
   } else {
       $('.removevh').addClass('vh-100');
   }
+
+
+
+
 }).resize();
+
+$(window).ready(() => {
+  $('#section*')
+});
