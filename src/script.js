@@ -1,21 +1,21 @@
 $(window)
   .resize(function () {
     let el0 =
-      '<div class="col-md-3 col-6 mt-1 mb-2 text-wrap text-break text-light text-start fw-semibold">Location</div>';
+      '<div class="col-md-3 col-4 mt-1 mb-2 text-wrap text-break text-light text-start fw-semibold">Location</div>';
     let el1 =
-      '<div class="col-md-3 col-6 mt-1 mb-2 text-wrap text-break text-light text-start fw-semibold">Web</div>';
+      '<div class="col-md-3 col-4 mt-1 mb-2 text-wrap text-break text-light text-start fw-semibold">Web</div>';
     let el2 =
-      '<div class="col-md-3 col-6 mt-1 mb-2 text-wrap text-break text-light text-start fw-semibold">Phone</div>';
+      '<div class="col-md-3 col-4 mt-1 mb-2 text-wrap text-break text-light text-start fw-semibold">Phone</div>';
     let el3 =
-      '<div class="col-md-3 col-6 mt-1 mb-2 text-wrap text-break text-light text-start fw-semibold">Email</div>';
+      '<div class="col-md-3 col-4 mt-1 mb-2 text-wrap text-break text-light text-start fw-semibold">Email</div>';
     let el4 =
-      '<div class="col-md-3 col-6 mt-1 mb-2 text-wrap text-break text-light text-start fw-light">Rende (CS), IT</div>';
+      '<div class="col-md-3 col-8 mt-1 mb-2 text-wrap text-break text-light text-start fw-light">Rende (CS), IT</div>';
     let el5 =
-      '<div class="col-md-3 col-6 mt-1 mb-2 text-wrap text-break text-light text-start fw-light">paolaguarasci.xyz</div>';
+      '<div class="col-md-3 col-8 mt-1 mb-2 text-wrap text-break text-light text-start fw-light">paolaguarasci.xyz</div>';
     let el6 =
-      '<div class="col-md-3 col-6 mt-1 mb-2 text-wrap text-break text-light text-start fw-light">+39 347 1234567</div>';
+      '<div class="col-md-3 col-8 mt-1 mb-2 text-wrap text-break text-light text-start fw-light">+39 347 1234567</div>';
     let el7 =
-      '<div class="col-md-3 col-6 mt-1 mb-2 text-wrap text-break text-light text-start fw-light">paolaguarasci@gmail.com</div>';
+      '<div class="col-md-3 col-8 mt-1 mb-2 text-wrap text-break text-light text-start fw-light">paolaguarasci@gmail.com</div>';
 
     let littleTable = $('#littleTable');
 
