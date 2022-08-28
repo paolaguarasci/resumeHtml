@@ -51,6 +51,18 @@ $(document).ready(() => {
       $(this).find('.card-img-overlay').removeClass('display-block');
       $(this).find('.card-img-overlay').addClass('display-none');
     });
+
+  $('.card').on('click', function () {
+    let link = $(this).data('link');
+    if (link) {
+      let win = window.open(link, '_blank');
+      if (win) {
+        win.focus();
+      } else {
+        alert('Please allow popups for this website');
+      }
+    }
+  });
 });
 
 $(document).on('scroll', function () {

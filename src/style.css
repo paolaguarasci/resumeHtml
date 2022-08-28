@@ -187,6 +187,12 @@
   }
 }
 
+/* 
+Le prox 3 regole creano l'overlay 
+e l'effettino in hover 
+sulle img dei progetti 
+*/
+
 .card {
   width: 100%;
   overflow: hidden;
@@ -199,11 +205,22 @@
 }
 
 .card:hover img {
-  transform: scale(1.05,1.05);
+  transform: scale(1.05, 1.05);
   opacity: 0.2;
 }
 
+/* Loghi grigiolini */
+
 .loghi img {
   max-width: 80%;
-  filter: opacity(0.2) saturate(0) contrast(50%) brightness(150%) invert(0.20);
+  filter: opacity(0.2) saturate(0) contrast(50%) brightness(150%) invert(0.2);
+}
+
+/* 
+Il link dei progetti e' gestito via js, 
+manca il puntatore... 
+*/
+
+.card {
+  cursor: pointer;
 }
