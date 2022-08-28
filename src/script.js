@@ -63,6 +63,22 @@ $(document).ready(() => {
       }
     }
   });
+
+  $('.list-group-item')
+    .mouseenter(function () {
+      $(this).addClass('active');
+    })
+    .mouseleave(function () {
+      $(this).removeClass('active');
+    });
+
+  $('.list-group-item').on('click', function () {
+    let link = $(this).data('resource');
+    let a = document.createElement('a');
+    a.href = link;
+    a.download = 'Paola_Guarasci_Resume';
+    a.click();
+  });
 });
 
 $(document).on('scroll', function () {

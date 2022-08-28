@@ -247,3 +247,11 @@ img {
 .vr {
   width: 2px;
 }
+
+
+.list-group-item.active.active {
+  z-index: 2;
+  color: var(--bs-list-group-active-color);
+  background-color: var(--bs-border-color-translucent);
+  border-color: var(--bs-border-color-translucent);
+}
