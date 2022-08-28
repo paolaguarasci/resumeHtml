@@ -237,3 +237,13 @@ img {
   width: 100%;
 }
 
+.line {
+  height: 2px;
+  background: var(--bs-white);
+  opacity: 0.25;
+  width: 1rem;
+}
+
+.vr {
+  width: 2px;
+}
