@@ -224,3 +224,12 @@ manca il puntatore...
 .card {
   cursor: pointer;
 }
+
+#avatar img {
+  filter: contrast(200%) brightness(100%) opacity(0.5);
+}
+
+img {
+  height: auto;
+  width: 100%;
+}

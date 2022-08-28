@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+    name="description"
+    content="Resume of Paola Guarasci, Developer based in southern italy. I work with NodeJS, Angular, React, Vue and all the latest technologies. ">
+
     <title>Paola Guarasci - Resume</title>
 
     <link
@@ -83,32 +88,18 @@
     />
     <meta name="theme-color" content="#ffffff" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css"
-      integrity="sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q=="
-      crossorigin="anonymous"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css"
-      integrity="sha512-9nqhm3FWfB00id4NJpxK/wV1g9P2QfSsEPhSSpT+6qrESP6mpYbTfpC+Jvwe2XY27K5mLwwrqYuzqMGK5yC9/Q=="
-      crossorigin="anonymous"
-    />
-
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.pure.css" />
   </head>
   <body>
     <div class="container-fluid">
       <div class="row" id="section1">
         <div class="col-md-4 text-md-end text-center mx-auto">
-          <div class="row vh-100 bg-success align-content-center removevh">
-            <div class="col-12">
+          <div class="row vh-100 bg-success bg-opacity-50 align-content-center removevh">
+            <div class="col-12" id="avatar">
               <img
-                src="img/avatar250.jpg"
+                src="img/avatar250.webp"
                 class="img-thumbnail rounded-circle"
-                alt="..."
+                alt="Paola Guarasci Avatar"
               />
             </div>
           </div>
@@ -119,24 +110,24 @@
         >
           <div class="row vh-100 removevh">
             <div class="col-12 align-self-end mt-5">
-              <h3 class="lh-1 mb-0 text-secondary fw-lighter">paola</h3>
+              <h3 class="lh-1 mb-0 text-white text-opacity-50 fw-lighter">paola</h3>
               <h1 class="lh-1 mb-0 text-success fw-semibold">GUARASCI</h1>
               <h5 class="lh-1 mt-3 text-light fw-light hstack removew75 w-75">
                 <span class="">Developer</span>
                 <span class="ms-auto">
                   <a href="https://bit.ly/3B1dc0x" target="_blank"
                     ><i
-                      class="fa-brands fa-square-github fa-2x me-1 text-success"
+                      class="fa-brands fa-square-github fa-2x me-1 text-success" role="link" aria-label="Github link"
                     ></i
                   ></a>
                   <a href="https://bit.ly/3R1ME4Q" target="_blank"
                     ><i
-                      class="fa-brands fa-linkedin fa-2x me-1 text-success"
+                      class="fa-brands fa-linkedin fa-2x me-1 text-success" role="link" aria-label="Linkedin link"
                     ></i
                   ></a>
                   <a href="https://bit.ly/3pKOzyF" target="_blank"
                     ><i
-                      class="fa-brands fa-square-twitter fa-2x me-1 text-success"
+                      class="fa-brands fa-square-twitter fa-2x me-1 text-success" role="link" aria-label="Twitter link"
                     ></i
                   ></a>
                 </span>
@@ -154,12 +145,12 @@
       </div>
       <div class="row" id="section2">
         <div
-          class="col-md-4 bg-dark text-secondary text-md-end text-center p-3"
+          class="col-md-4 bg-dark text-white text-opacity-50 text-md-end text-center p-3"
         >
           <p class="fs-2 p-0 m-0 lh-1 fw-bolder">Intro</p>
           <p class="fs-6 p-0 m-0">Subtitle</p>
         </div>
-        <div class="col-md-8 bg-success text-wrap text-break p-3">
+        <div class="col-md-8 bg-success bg-opacity-50 text-gray text-wrap text-break p-3">
           <p class="fs-5 removew75 w-75">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
             hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque,
@@ -182,11 +173,11 @@
         </div>
       </div>
       <div class="row" id="section3">
-        <div class="col-md-4 bg-success text-md-end text-center p-3">
+        <div class="col-md-4 bg-success bg-opacity-50 text-md-end text-center p-3">
           <p class="fs-2 p-0 m-0 lh-1 fw-bolder">Skill</p>
           <p class="fs-6 p-0 m-0">Subtitle</p>
         </div>
-        <div class="col-md-8 bg-dark text-secondary p-3">
+        <div class="col-md-8 bg-dark text-white text-opacity-50 text-white text-opacity-50 p-3">
           <div class="row removew75 w-75">
             <div class="col-xl-6 mb-3">
               <p class="">Javascript 1</p>
@@ -198,6 +189,7 @@
                   aria-valuenow="10"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="Javascript competence"
                 ></div>
               </div>
             </div>
@@ -211,6 +203,7 @@
                   aria-valuenow="30"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="Javascript competence"
                 ></div>
               </div>
             </div>
@@ -224,6 +217,7 @@
                   aria-valuenow="20"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="Javascript competence"
                 ></div>
               </div>
             </div>
@@ -237,6 +231,7 @@
                   aria-valuenow="90"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="Javascript competence"
                 ></div>
               </div>
             </div>
@@ -250,6 +245,7 @@
                   aria-valuenow="100"
                   aria-valuemin="0"
                   aria-valuemax="100"
+                  aria-label="Javascript competence"
                 ></div>
               </div>
             </div>
@@ -258,12 +254,12 @@
       </div>
       <div class="row" id="section4">
         <div
-          class="col-md-4 bg-dark text-secondary text-md-end text-center p-3"
+          class="col-md-4 bg-dark text-white text-opacity-50 text-md-end text-center p-3"
         >
           <p class="fs-2 p-0 m-0 lh-1 fw-bolder">Work</p>
           <p class="fs-6 p-0 m-0">Subtitle</p>
         </div>
-        <div class="col-md-8 bg-success p-4 pb-0">
+        <div class="col-md-8 bg-success bg-opacity-50 p-4 pb-0">
           <div class="row removew75 w-75">
             <div class="col-md-1 text-md-center vstack">
               <div class="align-self-end">
@@ -332,16 +328,16 @@
       </div>
 
       <div class="row" id="section5">
-        <div class="col-md-4 bg-success text-dark text-md-end text-center p-3">
+        <div class="col-md-4 bg-success bg-opacity-50 text-dark text-md-end text-center p-3">
           <p class="fs-2 p-0 m-0 lh-1 fw-bolder">Education</p>
           <p class="fs-6 p-0 m-0">Subtitle</p>
         </div>
-        <div class="col-md-8 bg-success p-4 pt-0 bg-dark text-secondary">
+        <div class="col-md-8 bg-dark p-4 pt-0 text-white text-opacity-50">
           <div class="row removew75 w-75">
             <div class="col-md-1 text-md-center vstack pt-0">
               <div class="vr align-self-end h-100 me-2 pb-4"></div>
             </div>
-            <div class="col-md-2 text-dark text-md-start text-center"></div>
+            <div class="col-md-2 text-md-start text-center"></div>
             <div class="col-md-8 mb-3"></div>
           </div>
 
@@ -411,11 +407,11 @@
       </div>
 
       <div class="row" id="section6">
-        <div class="col-md-4 bg-dark text-secondary text-end p-3">
+        <div class="col-md-4 bg-dark text-white text-opacity-50 text-end p-3">
           <p class="fs-2 p-0 m-0 lh-1 fw-bolder">Portfolio</p>
           <p class="fs-6 p-0 m-0">Some of my public projects</p>
         </div>
-        <div class="col-md-8 bg-success text-dark p-3">
+        <div class="col-md-8 bg-success bg-opacity-50 text-dark p-3">
           <div class="row removew75 w-75">
             <div class="col-md-6 p-3">
               <div
@@ -423,7 +419,7 @@
                 data-link="https://fcc-js-timer.herokuapp.com/"
               >
                 <img
-                  src="img/project/jsTimer.png"
+                  src="img/project/jsTimer.webp"
                   class="card-img rounded-0"
                   alt=""
                 />
@@ -441,7 +437,7 @@
                 data-link="https://fcc-js-calc.herokuapp.com/"
               >
                 <img
-                  src="img/project/jsCalc.png"
+                  src="img/project/jsCalc.webp"
                   class="card-img rounded-0"
                   alt=""
                 />
@@ -459,7 +455,7 @@
                 data-link="https://codepen.io/AhiVelasquez/pen/QEVQmW"
               >
                 <img
-                  src="img/project/randomQuoteMachine.png"
+                  src="img/project/randomQuoteMachine.webp"
                   class="card-img rounded-0"
                   alt=""
                 />
@@ -475,7 +471,7 @@
                 data-link="https://hidden-gorge-47889.herokuapp.com/"
               >
                 <img
-                  src="img/project/drumMachine.png"
+                  src="img/project/drumMachine.webp"
                   class="card-img rounded-0"
                   alt=""
                 />
@@ -490,12 +486,12 @@
       </div>
 
       <div class="row" id="section7">
-        <div class="col-md-4 bg-success text-dark text-end p-3">
+        <div class="col-md-4 bg-success bg-opacity-50 text-dark text-end p-3">
           <p class="fs-2 p-0 m-0 lh-1 fw-bolder">Tools Box</p>
           <p class="fs-6 p-0 m-0">Some tools in my daily work</p>
         </div>
         <div
-          class="col-md-8 bg-dark text-secondary bg-success text-secondary p-5"
+          class="col-md-8 bg-dark text-white text-opacity-50 text-white text-opacity-50 p-5"
         >
           <div class="row removew75 w-75 loghi">
             <div class="col-md-2">
@@ -538,11 +534,11 @@
       </div>
 
       <div class="row" id="section8">
-        <div class="col-md-4 bg-dark text-secondary text-end p-3">
+        <div class="col-md-4 bg-dark text-white text-opacity-50 text-end p-3">
           <p class="fs-2 p-0 m-0 lh-1 fw-bolder">Intro</p>
           <p class="fs-6 p-0 m-0">Subtitle</p>
         </div>
-        <div class="col-md-8 bg-success p-3">
+        <div class="col-md-8 bg-success bg-opacity-50 p-3">
           <p class="fs-5 w-75">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
             hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque,
