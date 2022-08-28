@@ -212,7 +212,8 @@ sulle img dei progetti
 /* Loghi grigiolini */
 
 .loghi img {
-  max-width: 80%;
+  max-width: 75px;
+  height: auto;
   filter: opacity(0.2) saturate(0) contrast(50%) brightness(150%) invert(0.2);
 }
 
@@ -227,9 +228,12 @@ manca il puntatore...
 
 #avatar img {
   filter: contrast(200%) brightness(100%) opacity(0.5);
+  max-width: 250px;
+  height: 100%;
 }
 
 img {
   height: auto;
   width: 100%;
 }
+
